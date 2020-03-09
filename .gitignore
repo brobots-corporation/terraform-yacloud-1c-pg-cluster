@@ -1,0 +1,6 @@
+*metadata.yml
+*secrets.tfvars*
+.terraform*
+*terraform.tfstate*
+*terraform.tfstate.backup*
+*.DS_Store*
