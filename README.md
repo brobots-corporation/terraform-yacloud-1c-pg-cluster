@@ -47,6 +47,12 @@
     * `cloud_id` - тип данных `string`. Идентификатор сервисного аккаунта;
     * `folder_id` - тип данных `string`. Идентификатор пространства группировки ресурсов;
     * `cluster_user_pass` - тип данных `string`. Пароль пользователя кластера СУБД.
+    ```properties
+    token               = "AgASg1AOnWO-AATuvlmUprlRM08e8po4"
+    cloud_id            = "b1gimfp8u0"
+    folder_id           = "b1et9ka3"
+    cluster_user_pass   = "Ga1z"
+    ```
 * Создать файл с метаданными `metadata.yml` для машин кластера 1С в корнейвой папке проекта. Пример содержимого файла:
     ```properties
     #cloud-config
