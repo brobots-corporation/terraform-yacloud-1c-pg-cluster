@@ -1,6 +1,6 @@
 # Terraform план кластера 1С и Postgresql в Яндекс.Облаков
 
-План создания ресурсов для кластера 1С и кластера СУБД Postgresql в облаке провайдера Яндекс 
+План создания ресурсов для кластера 1С и кластера СУБД Postgresql в облаке провайдера Яндекс
 
 ## Возможности
 
@@ -87,3 +87,8 @@
 ```sh
     $ terraform destroy -var-file="secrets.tfvars"
 ```
+
+## Ресурсы
+* Документация по конфигурации языка HCL - [Configuration Language](https://www.terraform.io/docs/configuration/index.html)
+* Интерактивная документация для лучшего понимания terraform - [Introduction to Infrastructure as Code with Terraform](https://learn.hashicorp.com/terraform/getting-started/intro)
+* Документация по ресурсам провайдера Яндекс.Облако - [Yandex.Cloud Provider](https://www.terraform.io/docs/providers/yandex/index.html)
