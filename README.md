@@ -10,7 +10,7 @@
 * Использование отдельных файлов с секретами.
 
 ## Установка
-* Выполнить установку утилиты terraform (не ниже версии `0.13.1`) на машину, с которой будет выполняться план:
+* Выполнить установку утилиты terraform (не ниже версии `0.13.1g`) на машину, с которой будет выполняться план:
   * Mac OS X: "`$ brew install terraform`", либо с сайта [terraform](https://www.terraform.io/downloads.html)
   * Linux: с сайта [terraform](https://www.terraform.io/downloads.html);
   * Windows: с сайта [terraform](https://www.terraform.io/downloads.html).
