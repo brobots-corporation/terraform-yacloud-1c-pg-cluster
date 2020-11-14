@@ -17,7 +17,7 @@ zones               = ["ru-central1-a", "ru-central1-b", "ru-central1-b"]
 instance_cores_1c           = "2"
 instance_memory_1c          = "8"
 instance_core_fraction_1c   = "20"
-os_image_id_1c              = "fd8ti195vru1hi3ivdue"
+os_image_id_1c              = "fd878e3sgmosqaquvef5"
 instance_disk_size_1c       = "20"
 instance_disk_type_1c       = "network-hdd"
 instance_preemptible_1c     = "true"
@@ -27,7 +27,7 @@ instance_preemptible_1c     = "true"
 
 ## Характеристики кластера СУБД
 environment         = "PRESTABLE"
-pg_version          = "10-1c"
+pg_version          = "11-1c"
 resource_preset_id  = "s2.micro"
 disk_type_id        = "network-ssd"
 disk_size           = 40
